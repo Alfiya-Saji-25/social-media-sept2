@@ -1,0 +1,179 @@
+.body-signin {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(./images/meme-logo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signin-card {
+  background: lightslategrey;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.signin-card h3 {
+  font-weight: 600;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.signin-card p {
+  font-size: 14px;
+  color: black;
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.btn-primary {
+  background: grey;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: 600;
+}
+
+.social-buttons button {
+  width: 48%;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.social-buttons img {
+  width: 18px;
+  margin-right: 8px;
+}
+
+.signup-link {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.signup-link a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* signup-page */
+
+
+.signup-body {
+  background-image: url(./images/meme-logo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-container {
+  background: lightslategrey;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.signup-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.btn-custom {
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-custom:hover {
+  background-color: lightslategrey;
+}
+
+
+/* post-list-page */
+
+.post-body {
+      background-color: #f8f9fa;
+    }
+    .navbar {
+      background-color: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .navbar-brand img{
+      width: 28px;
+  margin-right: 8px;
+  border-radius: 12px;
+
+    }
+    .nav-link {
+      font-weight: 500;
+    }
+    .post-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      margin-bottom: 20px;
+      overflow: hidden;
+    }
+    .post-header {
+      display: flex;
+      align-items: center;
+      padding: 12px;
+    }
+    .post-header img {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .username {
+      font-weight: 600;
+      font-size: 16px;
+    }
+    .post-image img {
+      width: 100%;
+      height: auto;
+    }
+    .post-body {
+      padding: 12px;
+    }
+    .post-actions {
+      padding: 10px 12px;
+      border-top: 1px solid #eee;
+      display: flex;
+      justify-content: space-between;
+    }
+    .post-actions i {
+      font-size: 22px;
+      cursor: pointer;
+      color: #555;
+    }
+    .post-actions i:hover {
+      color: #000;
+    }
+    .post-text {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
