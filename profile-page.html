@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile-Page</title>
+
+    <!-- bootstrap-css-link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- js-link -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- css-link -->
+
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- fontawesome-link -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+
+</head>
+
+<body class="body-profile">
+
+    <div class="container">
+        <div class="profile-card">
+            <h3 class="text-center mb-4">Add Your Profile</h3>
+
+            <!-- Profile Picture Preview -->
+            <div class="profile-pic-preview" id="picPreview">
+                <i class="fa-solid fa-user"></i>
+
+            </div>
+
+
+
+            <!-- Form -->
+            <form>
+                <!-- Name -->
+                <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                </div>
+
+                <!-- Bio -->
+                <div class="mb-3">
+                    <label for="bio" class="form-label">Bio</label>
+                    <textarea id="bio" class="form-control" rows="3" placeholder="Write something about you"></textarea>
+                </div>
+
+                <!-- Profile Picture Upload -->
+                <div class="mb-3">
+                    <label for="profilePic" class="form-label">Profile Picture</label>
+                    <input type="file" id="profilePic" class="form-control" accept="..." onchange="previewImage(event)">
+
+                </div>
+
+                <!-- Location -->
+                <div class="mb-3">
+                    <label for="location" class="form-label">Location</label>
+                    <input type="text" id="location" class="form-control" placeholder="Enter your location">
+                </div>
+
+                <!-- Submit -->
+                <button type="submit" class="btn btn-dark w-100">Save Profile</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
