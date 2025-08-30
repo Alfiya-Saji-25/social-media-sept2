@@ -233,6 +233,7 @@
       padding: 20px;
       
     }
+    
     .hero-landing1 {
       font-size: 3rem;
       font-weight: bold;
@@ -262,4 +263,21 @@
 
     strong{
       color: whitesmoke;
+    }
+
+    .image-slide{
+      width: 100%;
+      height: 520px;
+    }
+
+    .head-slide{
+      color: black;
+    }
+
+    .slide-desc{
+      color: black;
+    }
+
+    .carousel-btn{
+      color: black;
     }
