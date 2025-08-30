@@ -212,3 +212,54 @@
       height: 100%;
       object-fit: cover;
     }
+
+    .body-landing {
+      font-family: 'Poppins', sans-serif;
+      background:black;
+      
+      color: #fff;
+      height: 100vh;
+    }
+    .hero-landing {
+      height: 100vh;
+      background-image: url(./images/meme-logo.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      padding: 20px;
+      
+    }
+    .hero-landing1 {
+      font-size: 3rem;
+      font-weight: bold;
+      color: black;
+    }
+    .hero-landing2 {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+    .btn-custom1 {
+      border-radius: 30px;
+      padding: 10px 25px;
+      font-size: 1rem;
+      background-color: lightslategray;
+    }
+    .head-landing{
+       color: whitesmoke;
+
+    }
+
+    .btn-custom2{
+      border-radius: 30px;
+      padding: 10px 25px;
+      font-size: 1rem;
+      background-color: rgb(33, 32, 32);
+    }
+
+    strong{
+      color: whitesmoke;
+    }
